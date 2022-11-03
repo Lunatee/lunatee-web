@@ -1,0 +1,170 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: "Inter", sans-serif;
+    box-sizing: border-box;
+   }
+
+header li, a, button {
+    font-weight: 500;
+    font-size: 16px;
+    color: black;
+    text-decoration: none;
+}  
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 30px 10%;
+    background-color: white;
+    color: black;
+}
+
+.logoimg {
+    height: 51px;
+    vertical-align:middle;
+}
+
+.logo {
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+}
+
+.logotxt {
+    display: inline-block;
+    vertical-align: top;
+    padding-left: 10px;
+}
+
+.nav__links {
+    list-style: none;
+}
+
+.nav__links li {
+    display: inline-block;
+    padding: 0px 20px;
+}
+
+.nav__links li a {
+    transition: all 0.3s ease 0s;
+}
+
+.nav__links li a:hover {
+    transition: all 0.3s ease 0s;
+    color: #0088A9;
+}
+
+.nav__btn {
+    padding: 9px 25px;
+    background-color: rgba(0,136,169,1);
+    border: none;
+    border-radius: 50px;
+    cursor: pointer;
+    transition: all 0.3s ease 0s;
+}
+
+.nav__btn:hover {
+    background-color: rgba(0,136,169,0.8);
+}
+
+.intro {
+    width: 100vw;
+    height: 92.47vh;
+    background: url(../images/11062b_4478415df5cb4c49a2a957be90fc4f7a~mv2.webp) !important;
+    object-fit: none;
+    padding: 10%;
+    overflow: hidden;
+    font-size: 58px;
+    font-family: "Roboto", sans-serif;
+    color: whitesmoke;
+
+}
+
+main {
+    position: relative;
+}
+
+p {
+    font-size: 36px;
+}
+
+.intro_btn { 
+    padding: 9px 25px;
+    background-color: #f5f5f5;
+    border: none;
+    border-radius: 50px;
+    cursor: pointer;
+    transition: all 0.3s ease 0s;
+}
+
+.intro_btn:hover {
+    background-color: #CCf5f5f5;
+}
+
+br {
+    display: block;
+    margin-top: 35px;
+    overflow: hidden;
+    line-height: 22px;
+}
+
+.iPad__preview {
+    margin-top: -38%;
+    margin-left: 25%;
+    margin-bottom: -14%;
+    overflow: hidden;
+    margin-right: -10%;
+}
+
+.iPhone__preview {
+    margin-top: -185%;
+    overflow: hidden;
+    margin-left: 77.9514%;
+}
+
+@media only screen and (max-width: 1360px) {
+    .iPad__preview {
+        margin-top: -12%;
+    }
+
+    .intro {
+        height: auto;
+        padding-bottom: 20px;
+    }
+
+}
+
+.content {
+    background-color: whitesmoke;
+    padding: 6% 5%;
+    color: black;
+}
+
+.details__text h1 {
+    margin-right: 50%;
+}
+
+.details__text p{
+    font-size: 18px;
+    margin-right: 50%;
+}
+
+hr.solid {
+    border-top: 5px solid rgb(216, 216, 216);
+    border-radius: 5px;
+    box-shadow: none;
+
+}
+
+.lock__icn {
+    float: right;
+    width: 10%;
+    margin-top: -15%;
+
+}
+
+.details__text {
+    padding: 1% 5% 0px 5%;
+}
