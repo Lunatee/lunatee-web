@@ -169,3 +169,54 @@ hr.solid {
     padding: 1% 5% 0px 5%;
 }
 
+.alert {
+    padding: 20px;
+    background-color: #f44336;
+    color: whitesmoke;
+    margin-right: 2%;
+    margin-top: 2%;
+    border-radius: 8px;
+    border: none;
+    z-index: 100;
+    right: 0;
+    position: absolute;
+}
+
+.closebtn {
+    margin-left: 15px;
+    color: whitesmoke;
+    font-weight: bold;
+    float: right;
+    font-size: 22px;
+    line-height: 20px;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+.closebtn:hover {
+    color: black;
+}
+
+.alert__container {
+    position: relative;
+    animation: slideFromRight 0.33s ease-out;
+}
+
+@keyframes slideFromRight {
+    0% {
+        transform: translateX(100%);
+    }
+    100% {
+        transform: translateX(0%);
+    }
+}
+
+@keyframes fade-out {
+    from {
+        opacity: 100%;
+    }
+    to {
+        opacity: 0%;
+        display: none;
+    }
+}
